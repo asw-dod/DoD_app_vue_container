@@ -143,7 +143,7 @@ export default defineComponent({
     },
   },
   async mounted() {
-    //처음부터 파싱을 함
+    //처음부터 파싱을 함;
     const response = await axios.get(
       "https://api.github.com/repos/asw-dod/dap-macro/issues"
     );
