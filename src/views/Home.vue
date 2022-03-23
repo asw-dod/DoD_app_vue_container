@@ -2,7 +2,7 @@
   <ion-page>
     <!--header-->
     <ion-toolbar>
-      <ion-title>D.O.D Dap announcement</ion-title>
+      <ion-title>ASW D.O.D Dap announcement</ion-title>
     </ion-toolbar>
     <!--body-->
     <ion-content fullscreen>
@@ -74,6 +74,7 @@ import {
   information,
 } from "ionicons/icons";
 import axios from "axios";
+
 export default defineComponent({
   name: "Tab1Page",
   components: {

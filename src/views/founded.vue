@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <ion-toolbar>
-      <ion-title>D.O.D Dap announcement</ion-title>
+      <ion-title>ASW D.O.D Dap announcement</ion-title>
     </ion-toolbar>
     <ion-content :fullscreen="true">
       <ion-row class="row1">
