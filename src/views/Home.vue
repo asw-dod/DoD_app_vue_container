@@ -116,7 +116,7 @@ export default defineComponent({
       });
       await alert.present();
     },
-    //만약에 파싱이 안될경우 사용자가 직접 파싱 할수 있게 버튼을 추가함
+    //만약에 파싱이 안될경우 사용자가 직접 파싱 할수 있게 버튼을 추가함;
     async refresh_button() {
       let message_title = "";
       let today = new Date();
