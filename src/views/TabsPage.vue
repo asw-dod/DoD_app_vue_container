@@ -3,17 +3,17 @@
     <ion-tabs>
       <ion-router-outlet></ion-router-outlet>
       <ion-tab-bar>
-        <ion-tab-button tab="tab1" href="">
+        <ion-tab-button tab="tab1" href="/tabs/tab1">
           <ion-icon :icon="home" />
           <ion-label>Home</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button tab="tab2" href="/tab2">
+        <ion-tab-button tab="tab2" href="/tabs/tab2">
           <ion-icon :icon="albums" />
           <ion-label>비교과</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button tab="tab3" href="/tab3">
+        <ion-tab-button tab="tab3" href="/tabs/tab3">
           <ion-icon :icon="clipboard" />
           <ion-label>취업</ion-label>
         </ion-tab-button>
