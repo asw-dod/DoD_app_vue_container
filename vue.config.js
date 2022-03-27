@@ -1,4 +1,7 @@
 module.exports = {
   publicPath: '',
-  outputDir: 'dist'
+  outputDir: 'dist',
+  devServer: {
+    disableHostCheck: true
+  }
 }
