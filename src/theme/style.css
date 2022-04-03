@@ -23,6 +23,10 @@ body {
   height: 300px;
 }
 
+.table_main {
+  height: 450px;
+}
+
 .note_title {
   font-family: jua;
   padding-left: 0.5em;
