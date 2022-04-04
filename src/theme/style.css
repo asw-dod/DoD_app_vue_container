@@ -16,10 +16,19 @@ body {
 }
 
 .table1 {
-  height: 75vh;
+  width: 95vw;
+  height: 30vh;
+}
+
+.table2_food {
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 95vw;
+  height: 35vh;
 }
 
 .table {
+  width: 95vw;
   height: 300px;
 }
 
@@ -30,4 +39,21 @@ body {
 .note_title {
   font-family: jua;
   padding-left: 0.5em;
+}
+
+.food_title {
+  font-family: jua;
+  padding-left: 0.5em;
+  text-align: left;
+}
+
+.food_table {
+  height: 20vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+ion-slides {
+  height: 28vh;
+  width: 100vw;
 }

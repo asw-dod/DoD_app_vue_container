@@ -7,15 +7,15 @@
           <ion-icon :icon="home" />
           <ion-label>Home</ion-label>
         </ion-tab-button>
-
+        
         <ion-tab-button tab="tab2" href="/tabs/tab2">
           <ion-icon :icon="albums" />
           <ion-label>비교과</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button tab="tab3" href="/tabs/tab3">
+        <ion-tab-button @click="food_modal" tab="tab3" href="/tabs/tab3">
           <ion-icon :icon="clipboard" />
-          <ion-label>취업</ion-label>
+          <ion-label>기숙사</ion-label>
         </ion-tab-button>
 
         <ion-tab-button @click="opendap">
@@ -37,7 +37,7 @@ import {
   IonPage,
   IonRouterOutlet,
 } from "@ionic/vue";
-import { home, albums, clipboard, globe } from "ionicons/icons";
+import { home, albums, clipboard, globe , pizza} from "ionicons/icons";
 
 export default defineComponent({
   name: "TabsPage",
@@ -56,12 +56,17 @@ export default defineComponent({
       albums,
       clipboard,
       globe,
+      pizza
     };
   },
   methods: {
     async opendap() {
       window.open("https://dap.deu.ac.kr", "_system", "location=yes");
     },
+
+    async food_modal() {
+
+    }
   },
 });
 </script>
