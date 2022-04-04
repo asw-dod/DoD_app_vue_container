@@ -11,6 +11,7 @@ module.exports = {
     msTileColor: '#FFFFFF',
     manifestOptions: {
       background_color: '#FFFFFF'
-    }
+    },
+    workboxPluginMode: 'InjectManifest'
   }
 }
