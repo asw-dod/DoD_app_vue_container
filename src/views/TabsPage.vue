@@ -17,11 +17,6 @@
           <ion-icon :icon="clipboard" />
           <ion-label>기숙사</ion-label>
         </ion-tab-button>
-
-        <ion-tab-button @click="opendap">
-          <ion-icon :icon="globe" />
-          <ion-label>Dap접속</ion-label>
-        </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
@@ -60,10 +55,6 @@ export default defineComponent({
     };
   },
   methods: {
-    async opendap() {
-      window.open("https://dap.deu.ac.kr", "_system", "location=yes");
-    },
-
     async food_modal() {
 
     }
